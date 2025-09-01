@@ -2,7 +2,7 @@
 
 A sophisticated Node-RED flow that creates an intelligent WhatsApp chatbot powered by Meta's Llama AI model through the OpenRouter API. This solution provides secure, filtered AI-powered responses to WhatsApp messages with built-in phone number authentication.
 
-## 🚀 Features
+##  Features
 
 - **AI-Powered Conversations**: Utilizes Meta Llama 3.3 8B Instruct model for intelligent responses
 - **WhatsApp Integration**: Seamlessly processes incoming WhatsApp messages
@@ -11,14 +11,14 @@ A sophisticated Node-RED flow that creates an intelligent WhatsApp chatbot power
 - **Configurable AI**: Customizable system prompts and temperature settings
 - **Production Ready**: Error handling and message validation
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node-RED installation
 - OpenRouter API account and key
 - WhatsApp Business API or compatible WhatsApp integration
 - Valid phone numbers in E.164 format for whitelist
 
-## 🛠 Installation
+##  Installation
 
 1. **Import the Flow**
    - Copy the contents of `flows.json`
@@ -30,7 +30,7 @@ A sophisticated Node-RED flow that creates an intelligent WhatsApp chatbot power
    - Replace the OpenRouter API key with your own
    - Modify the AI system prompt if needed
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Phone Number Whitelist
 ```javascript
@@ -58,7 +58,7 @@ msg.payload = {
 };
 ```
 
-## 🔧 How It Works
+##  How It Works
 
 1. **Message Reception**: Receives WhatsApp messages through Node-RED
 2. **Phone Validation**: Normalizes phone numbers and checks against whitelist
@@ -66,7 +66,7 @@ msg.payload = {
 4. **AI Processing**: Sends processed message to OpenRouter API with Llama model
 5. **Response Delivery**: Returns AI-generated response back to WhatsApp
 
-## 📱 Message Format Support
+##  Message Format Support
 
 The flow handles multiple WhatsApp message types:
 - Plain text messages
@@ -74,14 +74,14 @@ The flow handles multiple WhatsApp message types:
 - Message objects with nested content
 - Various WhatsApp API formats
 
-## 🔒 Security Features
+##  Security Features
 
 - **Phone Number Filtering**: Only authorized numbers can interact with the bot
 - **E.164 Normalization**: Ensures consistent phone number format
 - **Input Validation**: Validates message structure and content
 - **Error Handling**: Graceful handling of malformed messages
 
-## 🎯 AI Behavior
+##  AI Behavior
 
 The chatbot is configured to:
 - Keep responses concise and under 800 characters
@@ -89,19 +89,19 @@ The chatbot is configured to:
 - Avoid markdown formatting unless requested
 - Handle images and links with plain text responses
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Test the Flow**
    - Deploy the flow in Node-RED
    - Send a test message from an authorized number
    - Verify the AI response is received
 
-2. **Customize Responses**
+   **Customize Responses**
    - Modify the system prompt in the function node
    - Adjust temperature for response creativity
    - Add custom message handling logic
 
-## 📝 Customization Options
+##  Customization Options
 
 ### System Prompt
 Modify the AI's behavior by updating the system message:
@@ -121,7 +121,7 @@ Adjust character limits and formatting preferences in the system prompt.
 - Include media handling capabilities
 - Add webhook integrations
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -140,14 +140,14 @@ Adjust character limits and formatting preferences in the system prompt.
    - Check message format compatibility
    - Verify Node-RED connectivity
 
-## 📊 Performance Considerations
+##  Performance Considerations
 
 - **Rate Limiting**: Monitor OpenRouter API usage
 - **Message Volume**: Consider implementing queuing for high traffic
 - **Error Handling**: Implement retry logic for failed requests
 - **Logging**: Add comprehensive logging for debugging
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to:
 - Report bugs and issues
@@ -155,18 +155,18 @@ Contributions are welcome! Please feel free to:
 - Submit pull requests
 - Improve documentation
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - OpenRouter for AI API services
 - Meta for the Llama AI model
 - Node-RED community for the excellent platform
 - WhatsApp Business API for messaging capabilities
 
-## 📞 Support
+##  Support
 
 For questions, issues, or contributions:
 - Create an issue in this repository
