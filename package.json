@@ -1,0 +1,44 @@
+{
+  "name": "whatsapp-ai-chatbot-nodered",
+  "version": "1.0.0",
+  "description": "A sophisticated Node-RED flow that creates an intelligent WhatsApp chatbot powered by Meta's Llama AI model through the OpenRouter API with secure phone number filtering",
+  "main": "flows.json",
+  "keywords": [
+    "node-red",
+    "whatsapp",
+    "chatbot",
+    "ai",
+    "llama",
+    "openrouter",
+    "automation",
+    "messaging",
+    "e164",
+    "phone-filter"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/whatsapp-ai-chatbot-nodered.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/whatsapp-ai-chatbot-nodered/issues"
+  },
+  "homepage": "https://github.com/yourusername/whatsapp-ai-chatbot-nodered#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "node-red": {
+    "flows": [
+      {
+        "file": "flows.json",
+        "title": "WhatsApp AI Chatbot Flow"
+      }
+    ]
+  }
+}
