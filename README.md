@@ -24,7 +24,7 @@ A tired developer’s shortcut: use this Node-RED flow to get a WhatsApp bot tha
 
 
 
-![Node-RED WhatsApp Flow](assets/image.jpg)
+![Node-RED WhatsApp Flow](assets/image.png)
 
 ---
 
